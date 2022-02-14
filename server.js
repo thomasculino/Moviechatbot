@@ -15,7 +15,7 @@ const tmdb = require('./tmdb');
 
 // Default page when opening https://your-repository.repl.co/
 server.get('/', (request, response) => response.send(`
-<h1>ProjectName TeamName - DIA3</h1>
+<h1>MovieChatbot - DIA3</h1>
 <h2>Members</h2>
 <ul>
   <li>Thomas CULINO</li>
