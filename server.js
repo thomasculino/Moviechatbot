@@ -7,7 +7,6 @@ server.use(bodyparser.json())
 
 
 const config = require('./config');
-console.log(config);
 const FBeamer = require('./fbeamer');
 const fb = new FBeamer(config.FB);
 const witai = require('./fbeamer/nlp_helper.js')
